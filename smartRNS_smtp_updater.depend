@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1413412626 source:/home/stefan/smartRNS_smtp_updater/main.cpp
+	"smtpsend.h"
+
+1413413448 /home/stefan/smartRNS_smtp_updater/smtpsend.h
+	<iostream>
+	<sstream>
+	<vector>
+	<map>
+	<vmime/vmime.hpp>
+	<vmime/platforms/posix/posixHandler.hpp>
+
