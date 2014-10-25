@@ -1,5 +1,12 @@
 # depslib dependency file v1.0
-1413412626 source:/home/stefan/smartRNS_smtp_updater/main.cpp
+1414255608 source:/home/stefan/smartRNS_smtp_updater/main.cpp
+	<iostream>
+	"configuration.h"
+	"data.h"
+	"parse.h"
+	"crypto.h"
+	"dnsquery.h"
+	"coreops.h"
 	"smtpsend.h"
 
 1413413448 /home/stefan/smartRNS_smtp_updater/smtpsend.h
@@ -9,4 +16,76 @@
 	<map>
 	<vmime/vmime.hpp>
 	<vmime/platforms/posix/posixHandler.hpp>
+
+1414250085 source:/home/stefan/smartRNS_smtp_updater/smtpsend.cpp
+	"smtpsend.h"
+
+1414174957 source:/home/stefan/smartRNS_smtp_updater/configuration.cpp
+	"configuration.h"
+
+1414013324 /home/stefan/smartRNS_smtp_updater/configuration.h
+	<vector>
+	<string>
+	<iostream>
+	"parse.h"
+
+1414013330 /home/stefan/smartRNS_smtp_updater/parse.h
+	<vector>
+	<string>
+	<iostream>
+
+1414013339 source:/home/stefan/smartRNS_smtp_updater/data.cpp
+	"data.h"
+
+1414013339 /home/stefan/smartRNS_smtp_updater/data.h
+	<vector>
+	<string>
+	<iostream>
+	"parse.h"
+
+1414106382 source:/home/stefan/smartRNS_smtp_updater/dnsquery.cpp
+	"dnsquery.h"
+
+1414106382 /home/stefan/smartRNS_smtp_updater/dnsquery.h
+	<vector>
+	<string>
+	<netinet/in.h>
+	<arpa/nameser.h>
+	<resolv.h>
+
+1414013330 source:/home/stefan/smartRNS_smtp_updater/parse.cpp
+	"parse.h"
+
+1414093366 source:/home/stefan/smartRNS_smtp_updater/coreops.cpp
+	"coreops.h"
+
+1414094546 /home/stefan/smartRNS_smtp_updater/coreops.h
+	<iostream>
+	<netinet/in.h>
+	<arpa/nameser.h>
+	<resolv.h>
+	<string>
+	<vector>
+	"configuration.h"
+	"data.h"
+	"parse.h"
+	"crypto.h"
+	"dnsquery.h"
+
+1414194613 /home/stefan/smartRNS_smtp_updater/crypto.h
+	<vector>
+	<string>
+	<crypto++/modes.h>
+	<crypto++/aes.h>
+	<crypto++/filters.h>
+	<crypto++/sha.h>
+	<crypto++/hex.h>
+	<crypto++/base64.h>
+	<crypto++/base32.h>
+	<crypto++/hex.h>
+	<iostream>
+	"configuration.h"
+
+1414247717 source:/home/stefan/smartRNS_smtp_updater/crypto.cpp
+	"crypto.h"
 

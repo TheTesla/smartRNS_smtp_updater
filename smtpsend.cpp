@@ -50,6 +50,7 @@ void sendMessage(string fromstr, string tostr, string subjectstr, string content
 		vmime::ref <vmime::net::transport> tr = g_session->getTransport(url);
 		// Enable TLS support if available
 		tr->setProperty("connection.tls", true);
+
 		tr->setCertificateVerifier(vmime::create <NonInteractiveCertificateVerifier>());
 		vmime::mailbox from(fromstr);
 		vmime::mailboxList to;

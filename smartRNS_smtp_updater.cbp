@@ -11,6 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters='vcrw test@test.smartrns.net &quot;smartrns.data{version=test42;}&quot;' />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -32,7 +33,21 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="configuration.cpp" />
+		<Unit filename="configuration.h" />
+		<Unit filename="coreops.cpp" />
+		<Unit filename="coreops.h" />
+		<Unit filename="crypto.cpp" />
+		<Unit filename="crypto.h" />
+		<Unit filename="data.cpp" />
+		<Unit filename="data.h" />
+		<Unit filename="dnsquery.cpp" />
+		<Unit filename="dnsquery.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="parse.cpp" />
+		<Unit filename="parse.h" />
+		<Unit filename="smtpsend.cpp" />
+		<Unit filename="smtpsend.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
